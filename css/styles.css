@@ -623,7 +623,16 @@ input:hover {
 }
 
 
-
+/*---EMPIEZA MAP---*/
+#map{
+    height: 75vh;
+}
+#mapa{
+    border: solid 6px #5C257F;
+    height: 75vh;
+    width: 100%;
+}
+/*---TERMINA MAP---*/
 /*---TERMINA ABOUT---*/
 /*---EMPIEZA TICKETS---*/
 
