@@ -62,7 +62,8 @@ header>div {
     transition: 0.5s;
     list-style: none;
 }
-.btn a{
+
+.btn a {
     text-align: center;
     border: 0px;
     background-color: Transparent;
@@ -71,11 +72,12 @@ header>div {
     font-weight: bold;
     opacity: 1;
     transition: 0.5s;
-   text-decoration: none;
+    text-decoration: none;
 }
 
 
-.btn:hover, .btn a:hover,
+.btn:hover,
+.btn a:hover,
 .activo {
     opacity: 1 !important;
     color: #353535 !important;
@@ -106,7 +108,7 @@ header>div {
     height: 100vh;
 }
 
-#timer{
+#timer {
     position: absolute;
     top: 46%;
     transform: translateY(-50%);
@@ -160,6 +162,7 @@ header>div {
     display: inline-block;
     color: white;
     font-size: 1em;
+    font-weight: 400;
     margin-bottom: 1.25em;
     width: 75%;
 }
@@ -178,13 +181,13 @@ header>div {
     transition: 0.5s;
 }
 
-#buy:hover{
+#buy:hover {
     cursor: pointer;
     background-color: #a259d0;
     transform: scale(1.1);
 }
 
-#contactForm{
+#contactForm {
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -195,8 +198,8 @@ header>div {
 }
 
 
-#question{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+#question {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     min-width: 100%;
     max-height: 25%;
 }
@@ -210,7 +213,7 @@ header>div {
     transition: 0.5s;
 }
 
-#submitConfirm{
+#submitConfirm {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 17.5%;
     color: #fcf8fc;
@@ -225,18 +228,19 @@ header>div {
     transition: 0.5s;
 }
 
-#submitConfirm:hover{
+#submitConfirm:hover {
     cursor: pointer;
     background-color: #a259d0;
     transform: scale(1.1);
 }
 
-#titleContact{
+#titleContact {
     float: left;
     margin-bottom: 5%;
     font-size: 2em;
 }
-#borderContact{
+
+#borderContact {
     border-bottom: 4px solid #5C257F;
     width: 100%;
     position: relative;
@@ -292,7 +296,8 @@ p.pfooter {
     margin-left: 0.6em;
     opacity: 1;
 }
-.redsocial li a{
+
+.redsocial li a {
     color: #fcf8fc;
 }
 
@@ -306,17 +311,19 @@ p.pfooter {
 
 /*---TERMINA HOME---*/
 /*---EMPIEZA LOG IN---*/
-#title{
+#title {
     float: left;
     margin-bottom: 10%;
     font-size: 2em;
 }
-#border{
+
+#border {
     border-bottom: 4px solid #5C257F;
     width: 100%;
     position: relative;
     top: 25%;
 }
+
 #loginform {
     height: 100vh;
 }
@@ -345,21 +352,22 @@ input {
     transition: 0.5s;
 }
 
-input[type="text" i]{
-    font-size: 1.125em;
-    padding-bottom: 2.5%;
-}
-input[type="password" i]{
+input[type="text"i] {
     font-size: 1.125em;
     padding-bottom: 2.5%;
 }
 
-input:hover{
+input[type="password"i] {
+    font-size: 1.125em;
+    padding-bottom: 2.5%;
+}
+
+input:hover {
     font-size: 1.25em;
     transform: scale(1.1);
 }
 
-#derecha{
+#derecha {
     background-image: url("../img/hero2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -368,11 +376,11 @@ input:hover{
     width: 50%;
 }
 
-#loginform{
+#loginform {
     display: flex;
 }
 
-#loginconfirm{
+#loginconfirm {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     color: #fcf8fc;
@@ -387,13 +395,13 @@ input:hover{
     transition: 0.5s;
 }
 
-#loginconfirm:hover{
+#loginconfirm:hover {
     cursor: pointer;
     background-color: #a259d0;
     transform: scale(1.1);
 }
 
-#rightContent{
+#rightContent {
     position: relative;
     top: 50%;
     margin: 0 auto;
@@ -403,19 +411,19 @@ input:hover{
     color: white;
 }
 
-#rightContent h2{
+#rightContent h2 {
     font-size: 2.5em;
     margin: 0;
 }
 
-#rightContent h3{
+#rightContent h3 {
     font-size: 1.25em;
     font-weight: 100;
 }
 
 /*---TERMINA LOG IN---*/
 /*---EMPIEZA ARTISTS---*/
-.day{
+.day {
     font-family: 'Six Caps', sans-serif;
     height: 50vh;
     background-image: url("../img/hero1blur.jpg");
@@ -426,8 +434,8 @@ input:hover{
     text-align: center;
 }
 
-.headings{
-    
+.headings {
+
     display: flex;
     margin: 0 auto;
     position: relative;
@@ -436,14 +444,13 @@ input:hover{
     transform: translate(-50%, -50%);
 }
 
-.heading{
-    font-family: 'Six Caps', sans-serif;
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3em;
     transition: 0.4s;
-    letter-spacing: 12px;
 }
 
-.alts{
+.alts {
     display: flex;
     font-size: 2em;
     position: relative;
@@ -453,12 +460,12 @@ input:hover{
 
 }
 
-.alt{
+.alt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     margin: 0 1%;
     color: #fcf8fc;
     transition: 0.4s;
-    letter-spacing: 10px;
 }
 
 .heading:hover {
@@ -466,7 +473,8 @@ input:hover{
     cursor: pointer;
     margin: 0 1%;
 }
-.alt:hover{
+
+.alt:hover {
     transform: scale(1.25);
     cursor: pointer;
     margin: 0 5%;
@@ -475,70 +483,101 @@ input:hover{
 /*---EMPIEZA MODAL---*/
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
     text-align: center;
-  }
-  
-  /* Modal Content */
-  .modal-content {
+}
+
+/* Modal Content */
+.modal-content {
     background-color: #fefefe;
+    border-radius: 25px;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
+    box-shadow: 0px 13px 11px rgb(0 0 0 / 25%);
     width: 70%;
-  }
-  
-  /* The Close Button */
-  .close {
+}
+
+/* The Close Button */
+.close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  #cover{
-      width: 50%;
-  }
+#cover {
+    margin: 0 auto;
+    width: 375px;
+    height: 250px;
+    animation-name: coverImg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  #modaltext{
-      width: 75%;
-      margin: 0 auto;
-      text-align: left;
-  }
+@keyframes coverImg{
+    0% {background-image: url("../img/pTheMan.jpeg");}
+    12.5% {background-image: url("../img/pTheMan.jpeg");}
+    25% {background-image: url("../img/pTheMan2.jpeg");}
+    37.5% {background-image: url("../img/pTheMan2.jpeg");}
+    50% {background-image: url("../img/pTheMan3.jpeg");}
+    62.5% {background-image: url("../img/pTheMan3.jpeg");}
+    75% {background-image: url("../img/pTheMan4.jpeg");}
+    87.5% {background-image: url("../img/pTheMan4.jpeg");}
+    100% {background-image: url("../img/pTheMan.jpeg");}
+}
+
+#modaltext {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
 
 /*---TERMINA MODAL---*/
 /*---TERMINA ARTISTS---*/
 
 /*---EMPIEZA ABOUT---*/
 
-.aboutCont{
+.aboutCont {
     width: 50%;
     height: 75vh;
 }
 
-.aboutText{
+.aboutText {
     background-color: #5C257F;
     color: #fcf8fc;
 }
 
-.textAbout{
+.textAbout {
     position: relative;
     top: 50%;
     width: 66%;
@@ -547,11 +586,11 @@ input:hover{
     transform: translate(-50%, -50%);
 }
 
-#sectionOne{
+#sectionOne {
     display: flex;
 }
 
-#oneLeft{
+#oneLeft {
     background-image: url("../img/fest.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -559,11 +598,11 @@ input:hover{
     background-size: cover;
 }
 
-#sectionTwo{
+#sectionTwo {
     display: flex;
 }
 
-#twoRight{
+#twoRight {
     background-image: url("../img/fecha.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -571,11 +610,11 @@ input:hover{
     background-size: cover;
 }
 
-#sectionThree{
+#sectionThree {
     display: flex;
 }
 
-#threeLeft{
+#threeLeft {
     background-image: url("../img/hipodromo.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -583,10 +622,12 @@ input:hover{
     background-size: cover;
 }
 
+
+
 /*---TERMINA ABOUT---*/
 /*---EMPIEZA TICKETS---*/
 
-#sectionFour{
+#sectionFour {
     background-image: url("../img/hero1blur.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -595,7 +636,7 @@ input:hover{
     color: white;
 }
 
-#buyTickets{
+#buyTickets {
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -605,7 +646,7 @@ input:hover{
     text-align: center;
 }
 
-#buyConfirm{
+#buyConfirm {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 17.5%;
     color: #fcf8fc;
@@ -620,14 +661,14 @@ input:hover{
     transition: 0.5s;
 }
 
-#buyConfirm:hover{
+#buyConfirm:hover {
     cursor: pointer;
     background-color: #a259d0;
     transform: scale(1.1);
 }
 
 
-#oneLeftTickets{
+#oneLeftTickets {
     background-image: url("../img/1.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -636,7 +677,7 @@ input:hover{
 }
 
 
-#twoRightTickets{
+#twoRightTickets {
     background-image: url("../img/2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -644,11 +685,12 @@ input:hover{
     background-size: cover;
 }
 
-#threeLeftTickets{
+#threeLeftTickets {
     background-image: url("../img/3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /*---TERMINA TICKETS---*/
